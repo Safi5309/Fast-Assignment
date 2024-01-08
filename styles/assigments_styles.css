@@ -1,0 +1,214 @@
+body {
+    font-family: 'Merriweather', serif;
+}
+
+main {
+    max-width: 1320px;
+    margin: auto;
+}
+
+.head-banner {
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner_Image.png');
+    height: 600px;
+    border-radius: 16px;
+    margin: 50px;
+}
+
+.head-title {
+    text-align: center;
+}
+
+.new-para {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 170px;
+    padding-bottom: 0px;
+}
+
+.title {
+    color: #FFF;
+    font-size: 72px;
+    font-weight: 900;
+    width: 632px;
+    padding-left: 344px;
+    margin-top: 0px;
+
+}
+
+/* 65 off section */
+.off {
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 0px;
+
+}
+
+.section-offer {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.offer-para {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 48px;
+    margin-bottom: 0px;
+}
+
+.offer-discription {
+    color: #070211;
+    font-size: 48px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 0px;
+}
+
+.offer-img {
+    margin-top: 48px;
+}
+
+/* welcome section */
+
+.welcome {
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
+    height: 600px;
+    border-radius: 16px;
+    margin: 80px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 120px;
+
+}
+
+.welcome-text-title {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    /* 137.5% */
+    letter-spacing: 7.04px;
+    width: 642px;
+    padding-left: 100px;
+    padding-top: 100px;
+    margin-bottom: 0px;
+
+}
+
+.welcome-img {
+    padding-top: 68px;
+}
+
+.welcome-discription {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 697px;
+    margin-top: 24px;
+    padding-left: 100px;
+    margin-bottom: 0px;
+}
+
+.join-btn {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 48PX;
+    margin-left: 100PX;
+    background-color: yellowgreen;
+    border: none;
+}
+
+/* anounsment  */
+
+.join {
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    height: 480px;
+    margin: 80px;
+}
+
+.join-discription p {
+    text-align: center;
+    color: #070211;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.join-discription {
+    padding-top: 120px;
+    ine-height: 56px;
+}
+
+.p-color {
+    color: #F00;
+}
+
+/* 3 head */
+.welcome-offer {
+    background-color: white;
+    height: 480px;
+    margin: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 120px;
+}
+
+.circleimg-here {
+    width: 400px;
+    height: 400px;
+    background-color: #FFF;
+    border: 10px solid #F00;
+    border-radius: 50%;
+    background-image: url('../resources/Ellipse_1.png');
+    background-size: cover;
+    background-position: center;
+    width: 360px;
+    height: 360;
+}
+
+.fast-para {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 120px;
+    margin-bottom: 0px;
+
+}
+
+.fast-come-title {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.fast-discription {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 393px;
+    margin-top: 4px;
+}
+.year{
+    color: #F00;
+
+ font-size: 48px;
+ font-weight: 700;
+ padding-left: 100px;
+ }
+ .scnd-discription{
+    color: rgba(7, 2, 17, 0.60);
+     font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-left: 100px;
+ }
+ .year-img{
+    padding-left: 100px;
+ }
