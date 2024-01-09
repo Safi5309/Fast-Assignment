@@ -240,7 +240,7 @@ main {
 /* holiday section styles */
 .Holiday-section {
     background: blueviolet;
-    height: 1000px;
+    height: 1050px;
     position: relative;
     margin: 80px;
 
@@ -283,28 +283,29 @@ main {
     margin-top: 28px;
 }
 
-.holiday-imags {
+.flex-div{
     display: flex;
-    justify-content: space-between;
-    margin: 150px 258px 0px 150px;
+    position: relative;
 }
-
-/* .holiday-right-img{
-    display: flex;
-    justify-content:space-between;
-    gap: 0px;
-} */
-/* .right-offer{
-    margin-right: 0px;
-    margin-left: 112px;
+.right-img-h{
     background-image: url('../resources/Rectangle\ 1.png');
+    background-repeat: no-repeat;
     width: 429px;
     height: 433px;
-} */
-.holiday-right-img {
-    background-image: url('../resources/Rectangle\ 1.png');
-    width: 429px;
-    height: 433px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+     
+}
+ 
+ 
+ .another-div{
+    position: relative;
+ }
+.bottom-pic{
+    background-image: url('../resources/Rectangle2.png');
+    width: 1165px;
+    height: 229px;
 }
 
 /* block section here */
@@ -348,12 +349,51 @@ main {
     gap: 24px;
     padding: 0px;
 }
+/* img hover */
+.box{
+    position: relative;
+    overflow: hidden;
+    font-family: 'Lato', sans-serif;
+     
+}
+.box:before{
+    content: '';
+    position: absolute;
+    background-color: yellowgreen;
+    width: 424px;
+    height: 450px;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all .4s linear;
+    border-radius: 30px;
+}
+.box:hover:before{
+    opacity: 1;
+}
+.box img{
+    width: 424px;
+    height: 450px;
+    transition: all .4s linear;
+}
 
-.block-all-img li:hover {
-    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-    height: 300px;
-    width: 300px;
-
+.box:hover img{
+    opacity: 0;
+    transform: scale(3);
+}
+.box h3{
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    transform: translateY(-50%) scale(0);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transition: all .4s linear;
+}
+.box:hover h3{
+    transform: translateY(-50%) scale(1);
 }
 
 /* Subcribe Section */
@@ -364,6 +404,10 @@ main {
     height: 616px;
     margin: auto;
     text-align: center;
+}
+.sub-background:hover img{
+    opacity: 0;
+    transform: scale(3);
 }
 
 .subcribe {
