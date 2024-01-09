@@ -122,7 +122,9 @@ main {
     background-color: yellowgreen;
     border: none;
 }
-
+.join-btn:hover{
+    background-color:rgba(184, 18, 18, 0.767);
+}
 /* anounsment  */
 
 .join {
@@ -157,7 +159,7 @@ main {
     margin-top: 120px;
 }
 
-.circleimg-here {
+/* .circleimg-here {
     width: 400px;
     height: 400px;
     background-color: #FFF;
@@ -168,6 +170,23 @@ main {
     background-position: center;
     width: 360px;
     height: 360;
+} */
+.circle-image {
+    border: 15px solid #F00;
+    height: 463px;
+    width: 463px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+.circleimg-here {
+    background-image: url('../resources/Ellipse_1.png');
+    width: 364.844px;
+    height: 364.844px;
+    padding: 49.8px;
+    background-repeat: no-repeat;
+    background-position: center;
+
 }
 
 .fast-para {
@@ -195,20 +214,291 @@ main {
     width: 393px;
     margin-top: 4px;
 }
-.year{
+
+.year {
     color: #F00;
 
- font-size: 48px;
- font-weight: 700;
- padding-left: 100px;
- }
- .scnd-discription{
+    font-size: 48px;
+    font-weight: 700;
+    padding-left: 90px;
+}
+
+.scnd-discription {
     color: rgba(7, 2, 17, 0.60);
-     font-size: 20px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 32px;
-    padding-left: 100px;
- }
- .year-img{
-    padding-left: 100px;
- }
+    padding-left: 90px;
+}
+
+.year-img {
+    padding-left: 90px;
+}
+
+.img-class {}
+
+/* holiday section styles */
+.Holiday-section {
+    background: blueviolet;
+    height: 1000px;
+    position: relative;
+    margin: 80px;
+
+}
+
+/* .holiday-bottom-img {
+    background-image: url('../resources/Rectangle2.png');
+    height: 229px;
+    width: 1120px;
+    position: absolute;
+    background-position: bottom;
+
+     
+}  */
+.holiday-all-text {
+    text-align: center;
+}
+
+.sort-title {
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.main-title {
+    color: #070211;
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.holiday-discription {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    width: 1068px;
+    margin-top: 28px;
+}
+
+.holiday-imags {
+    display: flex;
+    justify-content: space-between;
+    margin: 150px 258px 0px 150px;
+}
+
+/* .holiday-right-img{
+    display: flex;
+    justify-content:space-between;
+    gap: 0px;
+} */
+/* .right-offer{
+    margin-right: 0px;
+    margin-left: 112px;
+    background-image: url('../resources/Rectangle\ 1.png');
+    width: 429px;
+    height: 433px;
+} */
+.holiday-right-img {
+    background-image: url('../resources/Rectangle\ 1.png');
+    width: 429px;
+    height: 433px;
+}
+
+/* block section here */
+.block {
+    height: 1000px;
+    margin: 120px 80px 80px 80px;
+    background-color: #FFF;
+}
+
+.box-text {
+    text-align: left;
+}
+
+.block-fast-title {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.block-mian-title {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.block-discription {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+
+.block-all-img {
+    display: flex;
+    gap: 24px;
+    padding: 0px;
+}
+
+.block-all-img li:hover {
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    height: 300px;
+    width: 300px;
+
+}
+
+/* Subcribe Section */
+
+.sub-background {
+    background-color: rgba(255, 0, 0, 0.05);
+    width: 1320px;
+    height: 616px;
+    margin: auto;
+    text-align: center;
+}
+
+.subcribe {
+    margin-top: 120px;
+    text-align: center;
+}
+
+.sub-img {
+    margin: 80px 585px 0px 585px;
+    padding-top: 80px;
+}
+
+.sub-title {
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    width: 512px;
+    margin-left: 404px;
+    margin-bottom: 0px;
+}
+
+.sub-discription {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 896px;
+    margin-left: 212px;
+    margin-top: 0px;
+}
+
+.sub-email {
+    width: 438px;
+    height: 72px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border: none;
+    background: #FFF;
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.sub-btn {
+    width: 210px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    border: none;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.sub-btn:hover {
+    background-color: yellowgreen;
+}
+
+.sub-btn-flid {
+    margin-top: 48px;
+}
+
+/* Footer Section */
+
+.footer {
+    background-color: #070211;
+    height: 690px;
+    margin-top: 960px;
+}
+.footer-text{
+    display: flex;
+    justify-content: space-between;
+    margin: 120px 140px 0px 120px;
+    padding-top: 120px;
+}
+.left-text-para{
+    color: #FFF;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px;
+width: 375px;
+ 
+}
+.footer-right-text{
+    color: #FFF;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px;
+
+}
+.right-fast-para{
+    margin-bottom: 0px;
+    width: 195px;
+}
+.right-scnd-para{
+    margin-top: 0px;
+    width: 211px;
+}
+.social-links{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.horizontal-line{
+    margin: 50px 140px 50px 140px;
+    
+}
+.bottom-text{
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    margin: 0px 140px 0px 140px;
+     
+}
+.bottom-leftptext{
+font-size: 24px;
+font-weight: 500;
+width: 295px;
+}
+.bottom-btn{
+    color: #FFF;
+font-size: 24px;
+font-weight: 500;
+width: 145px;
+background-color: #070211;
+border: none;
+}
+.bottom-btn:hover{
+    background-color: yellowgreen;
+}
+.social-links li:hover{
+    background-color: yellowgreen;
+}
